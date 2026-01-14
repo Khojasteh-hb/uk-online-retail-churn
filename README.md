@@ -9,19 +9,19 @@ Python-based feature engineering and machine learning modeling.
 ## Dataset
 The dataset contains transactional records where each row represents a product purchased within
 an invoice. It includes information about purchase dates, quantities, prices, and customer IDs.
+- Note: The dataset is not included in this repository.  
 
 Data source:
 - UCI Machine Learning Repository:
   https://archive.ics.uci.edu/ml/datasets/Online+Retail
 
 ## Project Structure
-
+```text
+uk-online-retail-churn/
 ├── 01_sql_exploratory_analysis.ipynb
 ├── 02_python_rfm_churn_model.ipynb
-├── online_retail.csv
-├── online_retail.db
 └── README.md
-
+```
 
 ## SQL Exploratory Analysis
 The initial data exploration was performed using SQL to understand transaction patterns, validate
@@ -62,3 +62,4 @@ and further optimizing decision thresholds based on business objectives.
 
 ## Author
 Hakimeh Khojasteh
+
