@@ -60,6 +60,11 @@ customer activity in churn prediction.
 Future improvements may include adding additional behavioral features, testing alternative models,
 and further optimizing decision thresholds based on business objectives.
 
-## Author
-Hakimeh Khojasteh
+## Contact
+
+Hakimeh Khojasteh  
+khojasteh.hb@gmail.com  
+
+---
+
 
