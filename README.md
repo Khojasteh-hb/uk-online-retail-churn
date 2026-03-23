@@ -169,4 +169,4 @@ This indicates that customer spending behavior is the strongest signal for churn
 ---
 
 ## Author
-Junior Data Scientist focused on product analytics, machine learning, and data-driven decision making.
+Hakimeh Khojasteh
