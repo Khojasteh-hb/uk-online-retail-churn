@@ -5,6 +5,8 @@ Customer retention is a key driver of growth in e-commerce businesses. In this p
 
 Since churn is not explicitly defined in retail, it is approximated using a 90-day inactivity window. In addition to prediction, this project focuses on identifying high-value customers, making it a value-driven churn analysis.
 
+Additionally, an interactive Tableau dashboard is built to communicate key business insights.
+
 ---
 
 ## Objectives
@@ -51,6 +53,26 @@ Key findings:
 - Strong seasonality patterns in purchasing behavior
 
 These insights support defining churn using a 90-day inactivity window.
+
+---
+
+## Interactive Dashboard (Tableau)
+
+An interactive Tableau dashboard was developed to translate analytical findings into business insights.
+
+[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/hakimeh.khojasteh/viz/UK-Online-Retail/UKOnlineRetail)
+
+### Dashboard Highlights
+- **Revenue Seasonality**: Clear peak during the holiday season (Nov–Dec)
+- **Customer Segmentation**: Repeat customers (~65%) generate ~93% of total revenue
+- **Revenue Distribution**: Revenue deviates from the classic 80/20 rule, indicating a broader distribution across customers
+- **Pareto Analysis**: ~85% of customers contribute to 80% of revenue
+
+### Key Business Insight
+Revenue is strongly driven by repeat customers, while overall revenue remains relatively distributed across the broader customer base.
+
+
+<img width="1278" height="1050" alt="dashboard" src="https://github.com/user-attachments/assets/b2720c92-45ad-423d-88ff-4cbc01c2f722" />
 
 ---
 
@@ -154,9 +176,9 @@ This indicates that customer spending behavior is the strongest signal for churn
 ---
 
 ## Future Work
-- Add Tableau dashboard for business monitoring  
-- Test additional models (e.g., XGBoost)  
-- Deploy model for real-time prediction  
+- Test additional models (e.g., XGBoost)   
+- Extend dashboard with real-time data integration   
+- Incorporate additional features (e.g., customer demographics)
 
 ---
 
@@ -164,7 +186,7 @@ This indicates that customer spending behavior is the strongest signal for churn
 - Python (pandas, scikit-learn)  
 - SQL  
 - Jupyter Notebook  
-- Tableau (in progress)  
+- Tableau (data visualization & dashboarding)
 
 ---
 
